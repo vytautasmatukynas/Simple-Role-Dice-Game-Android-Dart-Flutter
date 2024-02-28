@@ -2,7 +2,7 @@
 
 This is simple `Dart` `Flutter` "Role Dice" game for android.
 
-![Screen_recording.gif](images%2FScreen_recording.gif)
+![alt text](images%2FScreen_recording.gif)
 
 ### Phone view:
 
