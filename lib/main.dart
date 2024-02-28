@@ -34,17 +34,11 @@ class _DicePageState extends State<DicePage> {
   int rightDiceFlex = 1;
 
   void rollDice() {
-    setState(() {
-      leftDiceFlex = 1;
-      rightDiceFlex = 1;
-    });
-
     for (int i = 0; i < Random().nextInt(21) + 10; i++) {
       Future.delayed(Duration(milliseconds: 200 * i), () {
         setState(() {
-          var random = Random();
-          leftDiceNumber = random.nextInt(6) + 1;
-          rightDiceNumber = random.nextInt(6) + 1;
+          leftDiceNumber = Random().nextInt(6) + 1;
+          rightDiceNumber = Random().nextInt(6) + 1;
 
           if (leftDiceNumber < rightDiceNumber) {
             leftDiceFlex = 4;
