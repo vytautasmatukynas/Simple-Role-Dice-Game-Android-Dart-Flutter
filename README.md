@@ -1,6 +1,6 @@
 # Simple Dice Game Android
 
-This is simple `Dart` `Flutter` "Role Dice" android game.
+This is simple `Dart` `Flutter` "Role Dice" android game. Has only `Portrait` view.
 
 <img src="images%2FScreen_recording.gif" alt="alt text" width="250">
 
